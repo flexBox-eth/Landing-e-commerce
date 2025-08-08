@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habesha Colors | Fashion E-commerce</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/style/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+      <a href="#" class="logo" aria-label="Habesha Colors Home">Habesha Colors</a>
+      <nav aria-label="Primary navigation">
+        <a href="#products" tabindex="0">Products</a>
+        <a href="#blog" tabindex="0">Blog</a>
+        <a href="#pro" tabindex="0">Categories</a>
+        <a href="#newsletter" tabindex="0">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid-home" aria-label="Main introduction">
+      <h1>Habesha Colors</h1>
+      <p>Your source for authentic Ethiopian fashion and style.</p>
+    </section>
+
+    <section class="first-products" id="products" aria-label="Featured products">
+      <article class="productp" tabindex="0" aria-labelledby="product1-title" role="link">
+        <img src="assets/images/dr1.jfif" alt="Product: White Ethiopian dress with colorful embroidery"/>
+        <h2 id="product1-title">Abeba Dress</h2>
+        <p>$80</p>
+      </article>
+      <article class="productp" tabindex="0" aria-labelledby="product2-title" role="link">
+        <img src="assets/images/dr5.jfif" alt="Product: Blue traditional Ethiopian dress"/>
+        <h2 id="product2-title">Selam Dress</h2>
+        <p>$85</p>
+      </article>
+      <article class="productp" tabindex="0" aria-labelledby="product3-title" role="link">
+        <img src="assets/images/dr4.jfif" alt="Product: Yellow Ethiopian dress with traditional patterns"/>
+        <h2 id="product3-title">Desta Dress</h2>
+        <p>$75</p>
+      </article>
+      <article class="productp" tabindex="0" aria-labelledby="product4-title" role="link">
+        <img src="assets/images/dr3.jfif" alt="Product: Colorful Ethiopian dress"/>
+        <h2 id="product4-title">Mulu Dress</h2>
+        <p>$90</p>
+      </article>
+    </section>
+
+    <section class="blog" id="blog" aria-label="Latest blog posts">
+      <article class="blog-post" tabindex="0" role="article">
+        <h2>5 Tips for Styling Ethiopian Dresses</h2>
+        <p>Discover how to wear your Habesha dresses with modern flair while respecting tradition.</p>
+      </article>
+      <article class="blog-post" tabindex="0" role="article">
+        <h2>The History Behind Our Colors</h2>
+        <p>Learn about the rich cultural meanings in the colors and patterns of Habesha fashion.</p>
+      </article>
+      <article class="blog-post" tabindex="0" role="article">
+        <h2>Meet the Artisans</h2>
+        <p>Behind the scenes of our handcrafted garments and the skilled people who create them.</p>
+      </article>
+    </section>
+
+    <section id="pro" aria-label="Product categories">
+      <ul>
+        <li><a href="#dress" tabindex="0">Dresses</a></li>
+        <li><a href="#accessories" tabindex="0">Accessories</a></li>
+        <li><a href="#shawls" tabindex="0">Shawls</a></li>
+        <li><a href="#footwear" tabindex="0">Footwear</a></li>
+      </ul>
+    </section>
+
+    <section class="dress-slider" aria-label="Dress slider gallery">
+      <i class="fa-solid fa-circle-left" role="button" aria-label="Previous dresses" tabindex="0"></i>
+      <div class="dress" tabindex="0">
+        <article class="slide" tabindex="0">
+          <img src="assets/images/dr6.jfif" alt="Abeba Dress"/>
+          <h2>Abeba Dress</h2>
+          <h3>Traditional & Elegant</h3>
+          <p>$80</p>
+        </article>
+        <article class="slide" tabindex="0">
+          <img src="assets/images/dr8.jfif" alt="Selam Dress"/>
+          <h2>Selam Dress</h2>
+          <h3>Comfort & Style</h3>
+          <p>$85</p>
+        </article>
+        <article class="slide" tabindex="0">
+          <img src="assets/images/dr7.jfif" alt="Desta Dress"/>
+          <h2>Desta Dress</h2>
+          <h3>Bright & Vibrant</h3>
+          <p>$75</p>
+        </article>
+        <article class="slide" tabindex="0">
+          <img src="assets/images/dr4.jfif" alt="Mulu Dress"/>
+          <h2>Mulu Dress</h2>
+          <h3>Modern Classic</h3>
+          <p>$90</p>
+        </article>
+      </div>
+      <i class="fa-solid fa-circle-right" role="button" aria-label="Next dresses" tabindex="0"></i>
+    </section>
+
+    <section id="newsletter" aria-label="Subscribe to newsletter">
+      <form class="newsletter-form" aria-describedby="newsletter-desc">
+        <label id="newsletter-desc" for="email" style="position:absolute; left:-9999px;">Subscribe to our newsletter</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column about">
+      <h4>About Us</h4>
+      <p>
+        At Habesha Colors, we blend tradition with fashion. Discover unique,
+        high-quality clothing inspired by Ethiopian culture and modern trends.
+      </p>
+    </div>
+
+    <div class="footer-column links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#pro">Products</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column contact">
+      <h4>Contact</h4>
+      <ul>
+        <li>Email: <a href="mailto:support@habeshacolors.com">support@habeshacolors.com</a></li>
+        <li>Phone: <a href="tel:+251912345678">+251 912 345 678</a></li>
+        <li>Address: Addis Ababa, Ethiopia</li>
+      </ul>
+    </div>
+
+    <div class="footer-column newsletter">
+      <h4>Stay Updated</h4>
+      <p>Subscribe to get special offers, giveaways, and once-in-a-lifetime deals.</p>
+      <form>
+        <input type="email" placeholder="Your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" style="text-align:center; padding: 1rem 0; color:#ccc; font-size:0.85rem;">
+    &copy; 2025 Habesha Colors. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
